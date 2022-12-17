@@ -15,11 +15,22 @@ Include your ER diagram here
 
 ### STEP 3:
 
-Write your own steps
+
 
 ## PROGRAM
+```
+from django.db import models
+from django.contrib import admin
+class Employee(models.Model):
+    Employee_ID = models.IntegerField(max_length=8, primary_key=True)
+    Employee_Name = models.CharField(max_length=100)
+    Employee_Age = models.IntegerField()
+    Employee_Email =models.EmailField()
+    Employee_post= models.CharField(max_length=100)
 
-Include your code here
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display = ('Employee_ID', 'Employee_Name','Employee_Age','Employee_Email','Employee_post')
+```
 
 ## OUTPUT
 
