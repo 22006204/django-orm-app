@@ -34,7 +34,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-file:///home/sec/Documents/django-orm-app/images/djangoapp.png
+![djangoapp](https://user-images.githubusercontent.com/118787261/208287869-bd45b65f-9858-449f-9564-122ee02c7138.png)
+
 
 
 
