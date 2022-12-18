@@ -4,7 +4,8 @@
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
 ## Entity Relationship Diagram
-![Entity Relationship Diagram](./images/ERdiagram.png)
+
+![ERdiagram](https://user-images.githubusercontent.com/118787261/208287802-a774dcf3-e0ed-4f4e-bd02-aee497ddc592.png)
 
 
 ## DESIGN STEPS
@@ -16,7 +17,6 @@ Clone the repository to theia ide. start a new app inside the project folder
 Tyoe the appropriate code for your table and provide appropriate data types to the columns.
 ### STEP 3:
 Create a report about your project in readme.md file and upload the django.orm.pp folder to your remote repository.
-
 
 ## PROGRAM
 ```
@@ -34,7 +34,8 @@ class EmployeeAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-![OUTPUT](./images/djangoapp.png)
+file:///home/sec/Documents/django-orm-app/images/djangoapp.png
+
 
 
 ## RESULT
